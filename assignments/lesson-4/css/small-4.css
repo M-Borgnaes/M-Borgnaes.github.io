@@ -1,0 +1,175 @@
+/* This is general CSS */
+
+* {
+    margin: 0;
+}
+body {
+    background-color: #42b0f4;
+    margin: 0;
+    padding: 0;
+    }
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+main {
+    background-color: #42b0f4;
+    margin: 0;
+    padding: 3px;
+}
+
+p {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+/* This is the CSS for things in the header */
+
+.logo {
+    float: left;
+    clear: left;
+    display: inline-block
+}
+
+
+.motto {
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    background-color: #2e7cad;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #2e7cad;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+header div {
+    text-align: center;
+    background-color: #2e7cad;
+    padding: 3px;
+}
+
+/* This is the CSS for the navigation panel */
+
+nav {
+    margin: 0;
+    padding: 5px;
+    background-color: #224b7c;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+ nav ul li a:link {
+     color: #ffffff;
+     text-decoration: none;
+ }
+
+ nav ul li a:visited {
+     color: #fcbb44;
+     text-decoration: none;
+ }
+
+.urhere {
+    background-color: #fcbb44;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* This is the CSS for the Weather Summary area */
+
+.wx-summ {
+    float: left;
+    background-color: #2e7cad;
+    width: 48%;
+    padding: 10px;
+}
+
+.wx-summ p {
+    color: #ffffff;
+}
+
+.wx-summ h2 {
+    text-align: center;
+}
+/* This CSS is for the Hero Picture */
+
+.hero {
+    float: right;
+}
+
+/* This CSS is for articles */
+
+article {
+    Width: 75%;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+article h2, h3 {
+    clear: both;
+    color: #000000;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.article-img {
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article p {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+/* This CSS is for the footer */
+
+footer {
+    background-color: #2e7cad;
+    width: 100%;
+    padding: 2px;
+}
+
+footer a:link {
+    color: #ffffff;
+}
+footer p {
+    font-family: 'Kodchasan', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+    }
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bar {
+    background-color: #224b7c;
+    width: 99%;
+}
+
+.footer-bar p {
+    color: #ffffff;
+}
