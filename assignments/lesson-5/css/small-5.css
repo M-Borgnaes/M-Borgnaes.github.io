@@ -5,7 +5,6 @@
 }
 body {
     background-color: #42b0f4;
-    margin: 0;
     padding: 0;
     }
 
@@ -23,9 +22,7 @@ h2 {
 
 
 main {
-    background-color: #42b0f4;
-    margin: 0;
-    padding: 3px;
+    width: 100%;
 }
 
 p {
@@ -35,111 +32,136 @@ p {
 /* This is the CSS for things in the header */
 
 .logo {
-    float: left;
-    clear: left;
-    display: inline-block
+     float: left;
 }
-
 
 .motto {
     font-family: 'EB Garamond', serif;
     color: #ffffff;
-    background-color: #2e7cad;
     text-align: center;
-    margin: 0;
-}
+ }
 
 header {
     background-color: #2e7cad;
     width: 100%;
     margin: 0;
     padding: 10px;
+
 }
 
-header div {
+header h1 {
+    margin: 0 auto 5px auto;
+
     text-align: center;
-    background-color: #2e7cad;
-    padding: 3px;
 }
 
 /* This is the CSS for the navigation panel */
 
 nav {
-    margin: 0;
+    width: 100%;
     padding: 5px;
     background-color: #224b7c;
     font-family: 'EB Garamond', serif;
     color: #ffffff;
 }
 
+nav div {
+    width: 25px;
+    height: 3px;
+    background-color: #fcbb44;
+    margin: 3px auto;
+    box-align: center;
+}
 nav ul li {
     list-style: none;
+    text-align: center;
+}
+
+nav ul li a {
     text-decoration: none;
 }
- nav ul li a:link {
+nav ul li a:link {
      color: #ffffff;
-     text-decoration: none;
- }
 
- nav ul li a:visited {
+}
+
+nav ul li a:visited {
      color: #fcbb44;
-     text-decoration: none;
- }
+}
 
-.urhere {
+nav ul li a:hover {
+    color: #224b7c;
     background-color: #fcbb44;
     font-weight: bold;
-    color: #000000;
+}
+
+nav ul li .active {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* CSS for the "main" container that holds the weather summary and hero picture */
+
+main {
+    width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 /* This is the CSS for the Weather Summary area */
 
 .wx-summ {
-    float: left;
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    width: 200px;
+    height: auto;
     background-color: #2e7cad;
-    width: 48%;
     padding: 10px;
-}
-
-.wx-summ p {
     color: #ffffff;
 }
 
-.wx-summ h2 {
-    text-align: center;
 }
 /* This CSS is for the Hero Picture */
 
-.hero {
-    float: right;
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* This CSS is for the five-day forecast */
+
+.fiveday table {
+    display: none;
 }
 
 /* This CSS is for articles */
 
 article {
-    Width: 75%;
+    Width: 80%;
     padding: 5px;
     margin: auto;
     width: 100%;
     height: auto;
-
 }
 
-article h2, h3 {
-    clear: both;
+.article-img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.article-text h2, h3 {
     color: #000000;
     font-family: 'EB Garamond', serif;
     text-align: center;
 }
 
-.article-img {
-    margin: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-article p {
+.article-text p {
     font-family: 'Kodchasan', sans-serif;
+    width: 80%;
+    margin: auto;
 }
 
 /* This CSS is for the footer */
@@ -147,7 +169,7 @@ article p {
 footer {
     background-color: #2e7cad;
     width: 100%;
-    padding: 2px;
+    padding: 2px, 0;
 }
 
 footer a:link {
@@ -168,7 +190,7 @@ footer img {
 
 .footer-bar {
     background-color: #224b7c;
-    width: 99%;
+    width: 100%;
 }
 
 .footer-bar p {
