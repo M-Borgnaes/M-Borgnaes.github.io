@@ -57,13 +57,23 @@ nav div {
     margin: 3px auto;
 }
 
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: .5rem 0 0 .5rem;
+}
+
 nav li {
     list-style: none;
-    text-align: center;
+    text-align: left;
+    padding: .5rem;
 }
 
 nav a {
     text-decoration: none;
+    display: block;
+
 }
 nav a:link {
      color: #ffffff;
@@ -76,12 +86,17 @@ nav a:visited {
 nav a:hover {
     color: #224b7c;
     background-color: #fcbb44;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+nav ul.hide {
+    display: none;
 }
 
 .active {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 /* ---------------This is Main CSS--------------- */
@@ -195,3 +210,11 @@ footer img {
 .footer-bar p {
     color: #ffffff;
 }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

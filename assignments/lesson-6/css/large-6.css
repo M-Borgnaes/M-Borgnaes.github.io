@@ -2,13 +2,22 @@
 
     /* ---------------CSS for Navigation Bar---------------*/
 
+    
+    nav ul.hide {
+        display: inline;
+    }
+
     nav li {
         display: inline;
         padding: 10px;
     }
 
-    nav li:first-child {
+    nav button {
         display: none;
+    }
+
+    nav a {
+        display: inline;
     }
 
     /* ---------------CSS for five-day forecast-------------- */
