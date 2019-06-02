@@ -1,0 +1,89 @@
+@media only screen and (min-width: 480px) {
+
+    /* ---------------CSS for Navigation Bar---------------*/
+
+    nav li {
+        display: inline;
+        padding: 10px;
+    }
+
+    nav li:first-child {
+        display: none;
+    }
+
+    /* ---------------CSS for five-day forecast-------------- */
+
+    div.fiveday {
+        margin: 10px auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fiveday table {
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: bold;
+        border: 2px solid #000000;
+    }
+
+    .fiveday th, td {
+        border: 1px solid #000000;
+        border-spacing: 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .fiveday img {
+        width: 0.25in;
+        height: auto;
+    }
+
+    /* --------------CSS for Article----------- */
+
+    main article {
+        margin: auto;
+    }
+
+    div.article-img {
+        float: right;
+        width: 30%;
+        height: auto;
+        margin: 0 0 10px 10px;
+    }
+
+    div.article-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* --------------- CSS for Footer------------- */
+
+    .contact {
+        width: 48%;
+        display: inline-block;
+
+    }
+
+    .map {
+        width: 48%;
+        display: inline-block;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} /*End of the Large CSS */

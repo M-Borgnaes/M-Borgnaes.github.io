@@ -1,0 +1,197 @@
+/* ---------------This is general CSS--------------- */
+
+* {
+    margin: 0;
+}
+body {
+    background-color: #42b0f4;
+}
+
+h1, h2, h3 {
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Kodchasan', Helvitica, sans-serif;
+}
+
+/* ---------------This is header CSS--------------- */
+
+.logo {
+    display: inline-block;
+}
+
+.page-topper {
+    display: inline-block;
+}
+
+.motto {
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    color: #ffffff;
+    text-align: center;
+ }
+
+header {
+    background-color: #2e7cad;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0 auto 5px auto;
+}
+
+/* ---------------This is navigation CSS---------------  */
+
+nav {
+    background-color: #224b7c;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+nav ul {
+    padding: 0;
+}
+nav div {
+    margin: 3px auto;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+     color: #ffffff;
+}
+
+nav a:visited {
+     color: #fcbb44;
+}
+
+nav a:hover {
+    color: #224b7c;
+    background-color: #fcbb44;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* ---------------This is Main CSS--------------- */
+
+main {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ---------------This is Weather Summary CSS--------------- */
+
+.wx-summ {
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    width: 30%;
+    min-width: 110px;
+    height: auto;
+    background-color: #2e7cad;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.wx-summ h3 {
+    color: #ffffff;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+}
+
+/* ---------------This is Hero Picture CSS--------------- */
+
+div.hero {
+    width: 100%;
+    height: auto;
+}
+div.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------This is Five Day Forecast CSS--------------- */
+
+div.fiveday {
+    display: none;
+}
+
+/* ---------------This is Articles CSS--------------- */
+
+.article-top {
+    clear: both;
+    text-align: center;
+}
+.article-top h2, h3 {
+    color: #ffffff;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.article-img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.article-text p {
+    font-family: 'Kodchasan', Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.clearfix {
+    clear: both; 
+}
+
+/* ---------------This is Footer CSS--------------- */
+
+footer {
+    background-color: #2e7cad;
+    width: 100%;
+    padding: 2px 0;
+    display: inline-block;
+}
+
+footer a:link {
+    color: #ffffff;
+}
+footer p {
+    font-family: 'Kodchasan', Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+    }
+
+div.social-media img {
+    display: inline;
+}
+
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bar {
+    background-color: #224b7c;
+    width: 100%;
+}
+
+.footer-bar p {
+    color: #ffffff;
+}
