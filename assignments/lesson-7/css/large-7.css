@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64em) {
+    /* 64em = 1024px */
+
+   /* -----------CSS for gallery ----------*/
+
+   .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .gallery figure:hover {
+       box-shadow: -10px 10px 10px 10px #000000; 
+   }
+
+
+
+
+
+
+
+
+
+
+} /*end of large css*/
