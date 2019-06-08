@@ -196,6 +196,11 @@ div.fiveday {
     margin: 10px;
     padding: 0 10px;
 }
+
+.gallery figcaption {
+    color: #ffffff;
+}
+
 /* ---------------This is Footer CSS--------------- */
 
 footer {
