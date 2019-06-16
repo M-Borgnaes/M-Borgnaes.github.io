@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     /* 32.5em = 520px*/
 
-    /* ---------------CSS for Navigation Bar---------------*/
+    /* ---------Navigation CSS----------*/
     
     nav ul.hide {
         display: inline-flex;
@@ -24,7 +24,7 @@
     }
 
     
-    /* ---------------CSS for five-day forecast-------------- */
+    /* ----------Five Day Forecast CSS--------- */
 
     div.fiveday {
         margin: 10px auto;
@@ -65,7 +65,7 @@
         background-color: #ffffff;
     }
 
-    /* --------------CSS for Article----------- */
+    /* ---------Article CSS---------- */
 
     main article {
         margin: auto;
@@ -83,7 +83,7 @@
         height: auto;
     }
 
-    /* -----------CSS for gallery ----------*/
+    /* -----------Gallery CSS----------*/
 
     .gallery {
         grid-template-columns: 1fr 1fr;
@@ -91,7 +91,14 @@
         justify-content: space-evenly;
     }
 
-    /* --------------- CSS for Footer------------- */
+    /* ----------Storm Center CSS ---------- */
+
+    form fieldset {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    /* ----------Footer CSS----------- */
 
     footer {
         width: 100%;

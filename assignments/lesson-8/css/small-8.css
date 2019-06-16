@@ -1,4 +1,4 @@
-/* ---------------This is general CSS--------------- */
+/* ----------General CSS---------- */
 
 * {
     margin: 0;
@@ -17,7 +17,11 @@ p {
     font-family: 'Kodchasan', Helvetica, sans-serif;
 }
 
-/* ---------------This is header CSS--------------- */
+div.thanks {
+    margin: 2rem;
+}
+
+/* ----------Header CSS---------- */
 
 .motto {
     font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -38,7 +42,7 @@ header h1 {
     margin: 0 auto 5px auto;
 }
 
-/* ---------------This is navigation CSS---------------  */
+/* ----------Navigation CSS---------- */
 
 nav {
     background-color: #224b7c;
@@ -98,7 +102,7 @@ nav ul.hide {
     font-size: 1.3rem;
 }
 
-/* ---------------This is Main CSS--------------- */
+/* ----------Main CSS---------- */
 
 main {
     position: relative;
@@ -106,7 +110,7 @@ main {
     margin: 0 auto;
 }
 
-/* ---------------This is Weather Summary CSS--------------- */
+/* ----------Weather Summary CSS---------- */
 
 .wx-summ {
     position: absolute;
@@ -136,8 +140,7 @@ main {
     font-weight: bold;
 }
 
-
-/* ---------------This is Hero Picture CSS--------------- */
+/* ----------Hero Picture CSS---------- */
 
 div.hero {
     width: 100%;
@@ -148,13 +151,13 @@ div.hero img {
     height: auto;
 }
 
-/* ---------------This is Five Day Forecast CSS--------------- */
+/* ----------Five Day Forecast CSS---------- */
 
 div.fiveday {
     display: none;
 }
 
-/* ---------------This is Articles CSS--------------- */
+/* ----------Articles CSS---------- */
 
 .article-top {
     clear: both;
@@ -183,7 +186,7 @@ div.fiveday {
     clear: both; 
 }
 
-/*---------- This is Gallery CSS ------------*/
+/* ----------Gallery CSS ------------ */
 
 .gallery {
     display: grid;
@@ -201,7 +204,61 @@ div.fiveday {
     color: #ffffff;
 }
 
-/* ---------------This is Footer CSS--------------- */
+/* ----------Storm Center CSS ---------- */
+
+form fieldset {
+    border: 2px solid #224b7c;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form fieldset legend {
+    padding: 1rem;
+}
+
+form input:required {
+    background: #f7978c;
+}
+
+form input:required:valid {
+    background: #ffffff;
+}
+form label.above {
+    display: block;
+    margin: .5rem auto 0;
+    color: #ffffff;
+}
+
+form input.above {
+    display: block;
+    width: 90%;
+    padding: .75rem;
+}
+
+form select.above {
+    display: block;
+    width: 90%;
+}
+
+label.left {
+    display: inline;
+    padding: .5rem;
+    color: #ffffff;
+    margin: .5rem auto 0;
+}
+
+form textarea {
+    height: 4rem;
+    width: 90%;
+    display: block;
+}
+
+form input.submit {
+    padding: 1rem;
+    margin: 1.5rem auto;
+}
+
+/* ----------Footer CSS---------- */
 
 footer {
     background-color: #2e7cad;
