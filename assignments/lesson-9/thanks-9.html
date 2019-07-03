@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <title>Tri-Town-Tattle Preston Idaho Community and Weather</title>
+    <meta name="description" content="thanks page for turning in a weather report to the Tri-Town Tattle community and weather site">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond%7CKodchasan&display=swap">
+    <link rel="stylesheet" href="css/normalize-9.css">
+    <link rel="stylesheet" href="css/small-9.css">
+    <link rel="stylesheet" href="css/medium-9.css">
+    <link rel="stylesheet" href="css/large-9.css">
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/weathersite-logo.png" alt="sun hiding behind a raining, snowing cloud">
+        <div>
+            <h1>Tri-Town Tattle</h1>
+            <div class="motto">
+                <p>community news & weather when you need it</p>
+            </div>
+         </div>   
+    </header>
+
+    <nav>
+        <button onClick="toggleMenu();">&#9776; Menu</button>
+        <ul id="primary-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter-9.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Thanks!</h1>
+
+
+        <div class="hero, clearfix">
+                <picture>
+                    <source srcset="images/2015-soda-fire-blm-blmgov-480x252.jpg" media="(max-width: 500px)">
+                    <source srcset="images/2015-soda-fire-blm-blmgov-810x426.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                    <source srcset="images/2015-soda-fire-blm-blmgov-1140x600.jpg" media="(min-width: 801px)">
+                    <img src="images/2015-soda-fire-blm-blmgov-480x252.jpg" alt="hills with dramatic orange clouds at horizon">
+                </picture>
+        
+        <div class="thanks">
+            <p>We really appreciate you helping us stay up-to-date on local storms. Click <a href="index.html">here</a> to return to the home page. </p>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="contact">
+            <p>Tri-Town Tattle</p>
+            <p>123 S. State Street</p>
+            <p>Preston, ID 83263</p>
+            <p>208-867-5309</p>
+            <p><a href="mailto:webmaster@tritowntattle.com">webmaster@tritowntattle.com</a></p>
+            <p>Come visit us at: </p>
+            <div class="social-media">
+                <p>
+                <a href="http://facebook.com"><img src="images/sm-icons/facebook.png" alt ="facebook logo"></a>
+                <a href="http://twitter.com"><img src="images/sm-icons/twitter.png" alt ="twitter logo"></a>
+                <a href="http://instagram.com"><img src="images/sm-icons/instagram.png" alt ="instagram logo"></a>
+                <a href="http://pinterest.com"><img src="images/sm-icons/pinterest.png" alt ="pinterest logo"></a></p>
+            </div>
+        </div>
+
+        <div class="map">
+            <img src="images/preston-map.png" alt="map showing the location of Preston Idaho">
+        </div>
+
+        <div class="footer-bar">
+            <p><span id="current-date"></span><p>Mischa Borgnaes | Gilbert, Arizona</p>
+        </div>
+
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+
+
+</body>
+
+</html>

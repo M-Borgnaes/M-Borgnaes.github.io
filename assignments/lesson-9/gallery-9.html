@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <title>Tri-Town-Tattle Photo Gallery</title>
+    <meta name="description" content="community photo gallery for weather images">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond%7CKodchasan&display=swap">
+    <link rel="stylesheet" href="css/normalize-9.css">
+    <link rel="stylesheet" href="css/small-9.css">
+    <link rel="stylesheet" href="css/medium-9.css">
+    <link rel="stylesheet" href="css/large-9.css">
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/weathersite-logo.png" alt="sun hiding behind a raining, snowing cloud">
+        <div>
+            <h1>Tri-Town Tattle</h1>
+            <div class="motto">
+                <p>community news & weather when you need it</p>
+            </div>
+         </div>   
+    </header>
+
+    <nav>
+        <button onClick="toggleMenu();">&#9776; Menu</button>
+        <ul id="primary-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-9.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter-9.html">Storm Center</a></li>
+            <li><a href="gallery-9.html" class="active">Gallery</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Gallery</h1>
+
+        <div class="gallery">
+            <figure>
+                <img src="images/gallery-pix/lightning.jpg" alt="lightning at night">
+                <figcaption>Dramatic lightning during night-time thunderstorm.</figcaption>
+            </figure>
+           
+            <figure>
+                <img src="images/gallery-pix/reflection.jpg" alt="storm clouds reflected in a lake">
+                <figcaption>A building storm is reflected in the still-calm waters of the lake while a lone fisherman keeps his vigil.</figcaption>
+            </figure>
+           
+            <figure>
+                <img src="images/gallery-pix/winter.jpg" alt="pine trees covered in snow">
+                <figcaption>Pine trees laden with snow shortly after sunrise under a clear blue sky.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-pix/thunder.jpg" alt="thunder storm">
+                <figcaption>Thunder clouds mass in the sky, preparing to unleash their power.</figcaption>
+            </figure>
+          
+            <figure>
+                <img src="images/gallery-pix/sunrise.jpg" alt="sunrise through trees">
+                <figcaption>The rising sun glitters through the branches of silhouetted trees.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-pix/mamatus.jpg" alt="cloudy day over farm fields">
+                <figcaption>Mammatus clouds lie in long ropes over a field of early crops.</figcaption>
+            </figure>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="contact">
+            <p>Tri-Town Tattle</p>
+            <p>123 S. State Street</p>
+            <p>Preston, ID 83263</p>
+            <p>208-867-5309</p>
+            <p><a href="mailto:webmaster@tritowntattle.com">webmaster@tritowntattle.com</a></p>
+            <p>Come visit us at: </p>
+            <div class="social-media">
+                <p>
+                <a href="http://facebook.com"><img src="images/sm-icons/facebook.png" alt ="facebook logo"></a>
+                <a href="http://twitter.com"><img src="images/sm-icons/twitter.png" alt ="twitter logo"></a>
+                <a href="http://instagram.com"><img src="images/sm-icons/instagram.png" alt ="instagram logo"></a>
+                <a href="http://pinterest.com"><img src="images/sm-icons/pinterest.png" alt ="pinterest logo"></a></p>
+            </div>
+        </div>
+
+        <div class="map">
+            <img src="images/preston-map.png" alt="map showing the location of Preston Idaho">
+        </div>
+
+        <div class="footer-bar">
+            <p><span id="current-date"></span><p>Mischa Borgnaes | Gilbert, Arizona</p>
+        </div>
+
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+
+</body>
+
+</html>
