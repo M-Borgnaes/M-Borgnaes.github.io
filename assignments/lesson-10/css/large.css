@@ -1,0 +1,32 @@
+@media only screen and (min-width: 64em) {
+    /* 64em = 1024px */
+
+   /* -----------gallery CSS----------*/
+
+   .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .gallery figure:hover {
+       box-shadow: -10px 10px 10px 10px #000000; 
+   }
+
+   /* ----------index CSS----------*/
+
+   .town-info {
+       display: flex;
+       flex-direction: row;
+   }
+
+   
+
+
+
+
+
+
+
+
+
+
+} /*end of large css*/

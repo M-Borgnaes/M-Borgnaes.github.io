@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <title>Tri-Town-Tattle Storm Reporting</title>
+    <meta name="description" content="storm reporting page for the Tri-Town Tattle community and weather site">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond%7CKodchasan&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/weathersite-logo.png" alt="sun hiding behind a raining, snowing cloud">
+        <div>
+            <h1>Tri-Town Tattle</h1>
+            <div class="motto">
+                <p>community news & weather when you need it</p>
+            </div>
+         </div>   
+    </header>
+
+    <nav>
+        <button onClick="toggleMenu();">&#9776; Menu</button>
+        <ul id="primary-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Storm Center</h1>
+       
+        <form action="thanks.html" method="GET">
+            <fieldset>
+
+                <legend>About You</legend>
+
+                <p class="storm">If it has a * you gotta fill it out!</p>
+                
+                <label class="above">*My name is...<input class="above" type="text" name="fullname" pattern="[A-Za-z].{4,}" title="At least 5 letters, no numbers allowed" required></label>
+
+                <label class="above">My email is...<input class="above" type="email" name="email" placeholder="you@gmail.com"></label>
+
+                <label class="above">*My phone number is...<input class="above" type="tel" name="phone" placeholder="1234567890" pattern="[0-9]{10}" title="10-digit phone number" required></label>
+
+                <label class="above">*My zip code is...<input class="above" type="number" name="zip" required></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>About the Storm</legend>
+
+                <label class="above">Storm Date<input class="above" type="date" name="date"></label>
+
+                <label class="above">Storm Type<input class="above" list="storm-type" name="storm-type">
+                <datalist id="storm-type">
+                    <option value="Blizzard">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Rain">
+                    <option value="Snow">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist></label>
+
+                <label class="above">Storm Severity (1-10)<input class="above" type="range" name="severity" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+
+                <label class="above">Storm Region<select class="above" name="region">
+                    <option value="select-region" selected="selected" disabled>Select Region...</option>
+                    <option value="fish-haven">Fish Haven</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda-springs">Soda Springs</option>
+                </select></label>
+                <br>
+                <p class="storm">Are you in danger?</p>
+
+                <label class="left">
+                    <input type="radio" name="danger" value="yes"> &nbsp;Yes&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="danger" value="no"> &nbsp;No&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="danger" value="maybe">&nbsp;Maybe&nbsp;&nbsp;&nbsp; 
+                </label>
+
+                <label class="above">Additional Info/Comments<textarea name="more-info"></textarea></label>
+
+                <input class="submit" type="submit" name="submit" value=
+"Tell Us About The Storm">
+            </fieldset>
+
+        </form>
+       
+    </main>
+
+    <footer>
+
+        <div class="contact">
+            <p>Tri-Town Tattle</p>
+            <p>123 S. State Street</p>
+            <p>Preston, ID 83263</p>
+            <p>208-867-5309</p>
+            <p><a href="mailto:webmaster@tritowntattle.com">webmaster@tritowntattle.com</a></p>
+            <p>Come visit us at: </p>
+            <div class="social-media">
+                <p>
+                <a href="http://facebook.com"><img src="images/sm-icons/facebook.png" alt ="facebook logo"></a>
+                <a href="http://twitter.com"><img src="images/sm-icons/twitter.png" alt ="twitter logo"></a>
+                <a href="http://instagram.com"><img src="images/sm-icons/instagram.png" alt ="instagram logo"></a>
+                <a href="http://pinterest.com"><img src="images/sm-icons/pinterest.png" alt ="pinterest logo"></a></p>
+            </div>
+        </div>
+
+        <div class="map">
+            <img src="images/preston-map.png" alt="map showing the location of Preston Idaho">
+        </div>*/
+
+        <div class="footer-bar">
+            <p><span id="current-date"></span><p>Mischa Borgnaes | Gilbert, Arizona</p>
+        </div>
+
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/storm-rating.js"></script>
+    <script src="js/currentdate.js"></script>
+
+
+</body>
+
+</html>
