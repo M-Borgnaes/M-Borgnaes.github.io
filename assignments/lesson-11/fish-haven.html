@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <title>Tri-Town-Tattle Preston Idaho Community and Weather</title>
+    <meta name="description" content="Preston Idaho page for the Tri-Town Tattle community and weather site">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond%7CKodchasan&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/weathersite-logo.png" alt="sun hiding behind a raining, snowing cloud">
+        <div>
+            <h1>Tri-Town Tattle</h1>
+            <div class="motto">
+                <p>community news & weather when you need it</p>
+            </div>
+         </div>   
+    </header>
+
+    <nav>
+        <button onClick="toggleMenu();">&#9776; Menu</button>
+        <ul id="primary-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Fish Haven</h1>
+
+
+        <div class="wx-summ">
+            <table>
+                <tr>
+                    <th colspan="2" class="summ-head"><h2><span id="townName">Preston</span>Weather Summary</h2></th>
+                </tr>
+                <tr>
+                    <td class="label">Currently: </td>
+                    <td class="wx-data"><span id="current"></span></td>
+                </tr>
+                <tr>
+                    <td class="label">High: </td>
+                    <td class="wx-data"><span id="temperature"></span>&deg; F</td>
+                </tr>
+                <tr>
+                    <td class="label">Wind Chill: </td>
+                    <td class="wx-data"><span id="windchill"></span>&deg; F</td>
+                </tr>
+
+                <tr>
+                    <td class="label">Humidity: </td>
+                    <td class="wx-data"><span id="humid"></span> &percnt;</td>
+                </tr>
+                <tr>
+                    <td class="label">Wind Speed: </td>
+                    <td class="wx-data"><span id="windspeed"></span> MPH</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="hero, clearfix">
+            <picture>
+                <source srcset="images/2015-soda-fire-blm-blmgov-480x252.jpg" media="(max-width: 500px)">
+                <source srcset="images/2015-soda-fire-blm-blmgov-810x426.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/2015-soda-fire-blm-blmgov-1140x600.jpg" media="(min-width: 801px)">
+                <img src="images/2015-soda-fire-blm-blmgov-480x252.jpg" alt="hills with dramatic orange clouds at horizon">
+            </picture>
+            
+        </div>
+        
+        <div class="fiveday">
+            <table>
+                <tr>
+                    <th colspan="5" class="table-label"><span id="town">Fish Haven</span>Five Day Forecast</th>
+                </tr>
+
+                <tr class="table-day">
+                    <td>Mon</td>
+                    <td>Tue</td>
+                    <td>Wed</td>
+                    <td>Thur</td>
+                    <td>Fri</td>
+                </tr>
+                
+                <tr class="table-forecast">
+                    <td><img src="images/wx-icons/sunny.png" alt="sunny day icon"><br><span id="temp1">73</span>&deg;F</td>
+                    <td><img src="images/wx-icons/rainy.png" alt="rainy day icon"><br><span id="temp2">51</span>&deg;F</td>
+                    <td><img src="images/wx-icons/thunder.png" alt="thunderstorm icon"><br><span id="temp3">65</span>&deg;F</td>
+                    <td><img src="images/wx-icons/snow.png" alt ="snowy day icon"><br><span id="temp4">34</span>&deg;F</td>
+                    <td><img src="images/wx-icons/sunny.png" alt="sunny day icon"><br><span id="temp5">73</span>&deg;F</td>
+                </tr>
+            </table>
+        </div>
+
+        <article>
+
+            <div class="article-top">
+                <h2><span id="townEvent">Fish Haven</span> Town Events</h2>
+             </div>
+
+            <div class="article-img">
+                <img src="images/bear-lake-anon-pxhere.jpg" alt="Bear Lake, near Fish Haven, Idaho">
+            </div>
+
+            <div class="article-text">
+                <ul>
+                    <li>Upcoming Events</li>
+                    <li>April 1: How Big Was That Fish Day</li>
+                    <li>May 15-30: Rush the Creek Days</li>
+                    <li>July 24: Bear Lake Blunder Run</li>
+                    <li>December 12: Light the Tree</li>
+                    <li>&nbsp;</li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <div class="contact">
+            <p>Tri-Town Tattle</p>
+            <p>123 S. State Street</p>
+            <p>Preston, ID 83263</p>
+            <p>208-867-5309</p>
+            <p><a href="mailto:webmaster@tritowntattle.com">webmaster@tritowntattle.com</a></p>
+            <p>Come visit us at: </p>
+            <div class="social-media">
+                <p>
+                <a href="http://facebook.com"><img src="images/sm-icons/facebook.png" alt ="facebook logo"></a>
+                <a href="http://twitter.com"><img src="images/sm-icons/twitter.png" alt ="twitter logo"></a>
+                <a href="http://instagram.com"><img src="images/sm-icons/instagram.png" alt ="instagram logo"></a>
+                <a href="http://pinterest.com"><img src="images/sm-icons/pinterest.png" alt ="pinterest logo"></a></p>
+            </div>
+        </div>
+
+        <div class="map">
+            <img src="images/preston-map.png" alt="map showing the location of Preston Idaho">
+        </div>
+
+        <div class="footer-bar">
+            <p><span id="current-date"></span><p>Mischa Borgnaes | Gilbert, Arizona</p>
+            <p>Weather data courtesy of <a href="http://openweathermap.org">Open Weather Map</a></p>
+        </div>
+
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/wx-summary.js"></script>
+    <script src="js/currentdate.js"></script>
+
+
+</body>
+
+</html>
