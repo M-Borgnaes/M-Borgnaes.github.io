@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <title>Temple Inn and Suites</title>
+    <meta name="description" content="Temple Inn and Suites hotel site home page">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Spectral:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" >
+        <picture>
+            <source srcset="images/logo-100x45.png" media="(max-width: 500px)">
+            <source srcset="images/logo-300x135.png" media="(min-width: 501px) and (max-width: 800px)">
+            <source srcset="images/logo-600x270.png" media="(min-width: 801px)">
+            <img src="images/logo-300x135.png" alt="Temple Inn and Suites logo">
+       </picture>
+        </a>
+    </header>
+
+    <nav>
+        <button onClick="toggleMenu();">&#9776; Menu</button>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services.html" >Services</a></li>
+            <li><a href="temples.html" >Temples</a></li>
+            <li><a href="reservations.html" >Reservations</a></li>
+            <li><a href="about.html" >About Us</a></li>
+            <li><a href="contact.html" >Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Thank you for contacting us!</h1>
+        <p>We will be in touch with you within two business days.</p>
+        <p>We look forward to serving you.</p>
+
+        <!--image goes here-->
+        
+        <p>Please click <a href="index.html">here</a> to return to the home page.</p>
+
+                        
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>1-800-867-5309</p>
+            <p>If you experience any difficulty with this site, please email the webmaster at <a href="mailto:webmaster@templeinnsuites.com">webmaster@templeinnsuites.com</a>. Thank you.</p>
+            <p>Visit us online at: </p>
+                <div class="social-media">
+                    <p>
+                    <a href="http://facebook.com"><img src="images/sm-icons/facebook.png" alt ="facebook logo"></a>
+                    <a href="http://twitter.com"><img src="images/sm-icons/twitter.png" alt ="twitter logo"></a>
+                    <a href="http://instagram.com"><img src="images/sm-icons/instagram.png" alt ="instagram logo"></a>
+                    <a href="http://pinterest.com"><img src="images/sm-icons/pinterest.png" alt ="pinterest logo"></a></p>
+                </div>
+        </div>
+        
+        <div class="footer-bar">
+            <p><span id="current-date"></span> Temple Inn & Suites | Bethesda, MD</p>
+        </div>
+        
+    </footer>
+        
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+
+</body>
+
+</html>
