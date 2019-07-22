@@ -1,6 +1,6 @@
 
     var section = document.querySelector("section");
-    var requestURL ="../json/templedata.json" ;
+    var requestURL ="https://github.com/M-Borgnaes/m-borgnaes.github.io/blob/master/temple-inn/json/templedata.json" ;
     var request = new XMLHttpRequest();
     request.open("Get", requestURL);
     request.responseType = "json";
