@@ -10,8 +10,8 @@
       showTemples(templeinfo);
     }
 
-        function showTemples(jsonObj) {
-      var heroes = jsonObj["temples"];
+        function showTemples(templeinfo) {
+      var temples = templeinfo["temples"];
       for (var i = 0; i < temples.length; i++) {
         var myArticle = document.createElement("article");
         var myH2 = document.createElement("h2");
@@ -24,8 +24,6 @@
         var myList2 = document.createElement("ul");
         var myH33 = document.createElement("h3");
         var myList3 = document.createElement("ul");
-        var myH34 = document.createElement("h3");
-        var myList4 = document.createElement("ul");
         var myH35 = document.createElement("h3");
         var myList5 = document.createElement("ul");
        
@@ -56,17 +54,8 @@
         var ordinance =temples[i].ordinance;
         for (var l = 0; l < ordinance.length; l++) {
           var listItem = document.createElement("li");
-          listItem.textContent = ordinances[l];
+          listItem.textContent = ordinance[l];
           myList3.appendChild(listItem);
-        }
-        
-        myH34.textContent = "Session Schedule: ";
-
-        var session =temples[i].session;
-        for (var m = 0; m < session.length; m++) {
-          var listItem = document.createElement("li");
-          listItem.textContent = session[m];
-          myList4.appendChild(listItem);
         }
         
         myH35.textContent = "Closures: ";
@@ -88,12 +77,10 @@
         myArticle.appendChild(myList2);
         myArticle.appendChild(myH33);
         myArticle.appendChild(myList3);
-        myArticle.appendChild(myH34);
-        myArticle.appendChild(myList4);
         myArticle.appendChild(myH35);
         myArticle.appendChild(myList5); 
         
-       document.getElementById(templeInfo).innerHTML(myArticle);
+       section.appendChild(myArticle);
 
       }
     }
