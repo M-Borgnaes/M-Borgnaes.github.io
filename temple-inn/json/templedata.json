@@ -1,7 +1,5 @@
-Access-Control-Allow-Origin: *
-
 {
-    "temples" :
+    "temples" : [
 
     {
         "name": "Gilbert Arizona Temple",
@@ -26,7 +24,6 @@ Access-Control-Allow-Origin: *
             "Baptisms: 4:00 PM - 8:30 PM. Church groups. Appointments preferred",
             "Initiatory, Sealing, Living ordinances, and group visits: Please call the temple."      
         ],
-        
         "session": [
             "5:30 AM",
             "6:15 AM",
@@ -49,15 +46,14 @@ Access-Control-Allow-Origin: *
             "7:00 PM",
             "7:45 PM Spanish"
         ],
-
         "closures": [
             "Closed Monday and Tuesday",
             "Monday, September 30 - Monday, October 14",
             "Wednesday, November 27 - Thursday, November 28",
             "Tuesday, December 24 - Wednesday December 25",
             "Tuesday, December 31"
-        ],
-    }
+        ]
+    },
 
     {
         "name": "Mesa Arizona Temple",
@@ -85,8 +81,8 @@ Access-Control-Allow-Origin: *
         ],
         "closures": [
             "Sunday, May 20, 2018 - Thursday December 31, 2020"
-        ],
-    }
+        ]
+    },
     
     {
         "name": "Phoenix Arizona Temple",
@@ -129,8 +125,8 @@ Access-Control-Allow-Origin: *
             "Monday, December 2 - Monday December 16",
             "Tuesday, December 24 - Wednesday December 25",
             "Tuesday, December 31 (limited hours)"
-        ],
-    }
+        ]
+    },
 
     {
         "name": "Snowflake Arizona Temple",
@@ -169,8 +165,8 @@ Access-Control-Allow-Origin: *
             "Wednesday, November 27 - Thursday, November 28",
             "Tuesday, December 24 - Wednesday December 25",
             "Tuesday, December 31"
-        ],
-    }
+        ]
+    },
 
     {
         "name": "The Gila Valley Temple",
@@ -209,8 +205,8 @@ Access-Control-Allow-Origin: *
             "Wednesday, November 27 - Thursday, November 28",
             "Tuesday, December 24 - Wednesday December 25",
             "Tuesday, December 31"
-        ],
-    }
+        ]
+    },
 
     {
         "name": "Tucson Arizona Temple",
@@ -252,6 +248,7 @@ Access-Control-Allow-Origin: *
             "Wednesday, November 27 - Thursday, November 28",
             "Tuesday, December 24 - Thursday December 26",
             "Tuesday, December 31"
-        ],
+        ]
     }
+]
 }
