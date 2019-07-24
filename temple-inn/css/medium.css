@@ -1,6 +1,30 @@
 @media only screen and (min-width: 32.5em) {
 
+    .piccy {
+        width: 15%;
+        float: right;
+    }
+    
+    .pyx {
+        max-width: 100%;
+    }
 
+    nav {
+        width: 15%;
+    }
+    
+    nav ul.hide {
+        display: block;
+    }
 
+    nav button {
+        display: none;
+    }
 
+    section {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+ 
 } /* end of medium css

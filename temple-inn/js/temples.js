@@ -70,6 +70,8 @@
           myList5.appendChild(listItem);
         }
 
+       
+
         myArticle.appendChild(myH2);
         myArticle.appendChild(myImage);
         myArticle.appendChild(myPara1);
@@ -83,7 +85,7 @@
         myArticle.appendChild(myList3);
         myArticle.appendChild(myH35);
         myArticle.appendChild(myList5); 
-        
+               
        section.appendChild(myArticle);
 
       }

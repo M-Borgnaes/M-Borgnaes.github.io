@@ -1,8 +1,14 @@
 @media only screen and (min-width: 64em) {
 
 
-
-
+    section {
+        display: flex;
+        flex-direction: row;
+        width: 30%
+    }
+article {
+    width: 30%;
+}
 
 
 } /*end of large css
