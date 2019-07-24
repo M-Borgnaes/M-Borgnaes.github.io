@@ -15,7 +15,7 @@
       for (var i = 0; i < temples.length; i++) {
         var myArticle = document.createElement("article");
         var myH2 = document.createElement("h2");
-        var myImage
+        var myImage = document.createElement("img");
         var myPara1 = document.createElement("p");
         var myPara2 = document.createElement("p");
         var myPara3 = document.createElement("p");
@@ -29,7 +29,8 @@
         var myList5 = document.createElement("ul");
        
         myH2.textContent = temples[i].name;
-        myImage.textContent = temples[i].image;
+        myImage.setAttribute("src", temples[i].image);
+        myImage.setAttribute("alt", temples[i].name);
         myPara1.textcontent = "Address: " + temples[i].address1 + "<br>" + temples[i].address2;
         myPara2.textContent = "Phone: " + temples[i].phone;
         myPara3.textContent = "Email: " + temples[i].email;
