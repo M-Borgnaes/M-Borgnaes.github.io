@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
     <title>Temple Inn and Suites</title>
-    <meta name="description" content="Temple Inn and Suites hotel site home page">
+    <meta name="description" content="Temple Inn and Suites hotel contact thanks">
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Spectral:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -29,7 +29,7 @@
 
     <nav>
         <button onClick="toggleMenu();">&#9776; Menu</button>
-        <ul>
+        <ul id="primary-nav" class="hide">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="services.html" >Services</a></li>
             <li><a href="temples.html" >Temples</a></li>
@@ -44,7 +44,14 @@
         <p>We will be in touch with you within two business days.</p>
         <p>We look forward to serving you.</p>
 
-        <!--image goes here-->
+        <div>
+            <picture>
+                <source srcset="images/hotel-lobby-200x142.jpg" media="(max-width: 500px)">
+                <source srcset="images/hotel-lobby-480x341.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/hotel-lobby-590x419.jpg" media="(min-width: 801px)">
+                <img src="images/hotel-lobby-200x142.jpg" alt="Temple Inn & Suites Lobby">
+            </picture>
+        </div>
         
         <p>Please click <a href="index.html">here</a> to return to the home page.</p>
 
@@ -54,7 +61,7 @@
     <footer>
         <div class="contact">
             <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>1-800-867-5309</p>
-            <p>If you experience any difficulty with this site, please email the webmaster at <a href="mailto:webmaster@templeinnsuites.com">webmaster@templeinnsuites.com</a>. Thank you.</p>
+            <p>If you experience any difficulty with this site, please email the webmaster at webmaster@templeinnsuites.com. Thank you.</p>
             <p>Visit us online at: </p>
                 <div class="social-media">
                     <p>

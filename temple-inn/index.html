@@ -29,7 +29,7 @@
 
     <nav>
         <button onClick="toggleMenu();">&#9776; Menu</button>
-        <ul>
+        <ul id="primary-nav" class="hide">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="services.html" >Services</a></li>
             <li><a href="temples.html" >Temples</a></li>
@@ -43,7 +43,12 @@
         <h1>Welcome to Temple Inn and Suites!</h1>
 
         <div>
-            <!--hotel lobby image goes here-->
+            <picture>
+                <source srcset="images/hotel-lobby-200x142.jpg" media="(max-width: 500px)">
+                <source srcset="images/hotel-lobby-480x341.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/hotel-lobby-590x419.jpg" media="(min-width: 801px)">
+                <img src="images/hotel-lobby-200x142.jpg" alt="Temple Inn & Suites Lobby">
+            </picture>
         </div>
 
         <div>
@@ -53,12 +58,17 @@
         </div>
 
         <div>
-            <!--Gilbert temple image goes here-->
+            <picture>
+                <source srcset="images/gilbert-200x125.jpg" media="(max-width: 500px)">
+                <source srcset="images/gilbert-480x300.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/gilbert-590x369.jpg" media="(min-width: 801px)">
+                <img src="images/gilbert-200x125.jpg" alt="Gilbert Arizona Temple">
+           </picture>
         </div>
 
         <article>
             <h2>The Gilbert, Arizona Temple</h2>
-            <p>Located at 3303 S Greenfield Rd in Gilbert, directly across the street from our hotel. Announced April 10, 2008, the groundbreaking was November 13, 2010, and it was dedicated March 2, 2014. See the temple's page on our site for hours, closures, and contact information.</p>
+            <p>Located at 3303 S Greenfield Rd in Gilbert, directly across the street from our hotel. Announced April 10, 2008, the groundbreaking was November 13, 2010, and it was dedicated March 2, 2014. See the <a href="temples.html">temples page</a> for hours, closures, and contact information.</p>
             <p>The Gilbert temple has clothing rental available. There is no food service in the temple itself, but with our restaurant so near, you won't go hungry. The distribution center is about a mile down the street, and our shuttle-van will gladly take you there.</p>
         </article>
     </main>
@@ -66,7 +76,7 @@
     <footer>
         <div class="contact">
             <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>1-800-867-5309</p>
-            <p>If you experience any difficulty with this site, please email the webmaster at <a href="mailto:webmaster@templeinnsuites.com">webmaster@templeinnsuites.com</a>. Thank you.</p>
+            <p>If you experience any difficulty with this site, please email the webmaster at webmaster@templeinnsuites.com. Thank you.</p>
             <p>Visit us online at: </p>
                 <div class="social-media">
                     <p>

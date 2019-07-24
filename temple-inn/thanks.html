@@ -29,7 +29,7 @@
 
     <nav>
         <button onClick="toggleMenu();">&#9776; Menu</button>
-        <ul>
+        <ul id="primary-nav" class="hide">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="services.html" >Services</a></li>
             <li><a href="temples.html" >Temples</a></li>
@@ -43,7 +43,15 @@
         <h1>Thank you for your reservation!</h1>
         <p>We look forward to serving you.</p>
 
-        <!--image goes here-->
+        <div>
+            <picture>
+                <source srcset="images/hands-200x125.jpg" media="(max-width: 500px)">
+                <source srcset="images/hands-480x321.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/hands-590x394.jpg" media="(min-width: 801px)">
+                <img src="images/hands-200x134.jpg" alt="Father's hand, with mother's and baby's hand on top">
+            </picture>
+        </div>
+    
         
         <p>Please click <a href="index.html">here</a> to return to the home page.</p>
 

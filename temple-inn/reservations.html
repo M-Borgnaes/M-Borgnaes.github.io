@@ -29,7 +29,7 @@
 
     <nav>
         <button onClick="toggleMenu();">&#9776; Menu</button>
-        <ul>
+        <ul id="primary-nav" class="hide">
             <li><a href="index.html" >Home</a></li>
             <li><a href="services.html" >Services</a></li>
             <li><a href="temples.html" >Temples</a></li>
@@ -41,6 +41,15 @@
 
     <main>
         <h1>Reservations</h1>
+
+        <div>
+            <picture>
+                <source srcset="images/double-room-200x113.jpg" media="(max-width: 500px)">
+                <source srcset="images/double-room-480x270.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/double-room590x332.jpg" media="(min-width: 801px)">
+                <img src="images/double-room-200x113.jpg" alt="Temple Inn & Suites double room">
+            </picture>
+        </div>
 
         <p>We have several room types:</p>
             <ul>
@@ -120,7 +129,7 @@
     <footer>
         <div class="contact">
             <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>1-800-867-5309</p>
-            <p>If you experience any difficulty with this site, please email the webmaster at <a href="mailto:webmaster@templeinnsuites.com">webmaster@templeinnsuites.com</a>. Thank you.</p>
+            <p>If you experience any difficulty with this site, please email the webmaster at webmaster@templeinnsuites.com. Thank you.</p>
             <p>Visit us online at: </p>
             <div class="social-media">
                 <p>

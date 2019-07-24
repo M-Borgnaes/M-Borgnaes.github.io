@@ -3,6 +3,7 @@
 
     {
         "name": "Gilbert Arizona Temple",
+        "image": "<img src='gilbert-200x125.jpg' alt='Gilbert Arizona Temple'>",
         "address": "3301 S. Greenfield Rd",
         "address2": "Gilbert, AZ, 85297",
         "phone": "480-822-5000",
@@ -57,6 +58,7 @@
 
     {
         "name": "Mesa Arizona Temple",
+        "image": "<img src='mesa-200x125.jpg' alt='Mesa Arizona Temple'>",
         "address": "101 S LeSueur",
         "address2": "Mesa, AZ 85204",
         "phone": "480-833-1211",
@@ -86,6 +88,7 @@
     
     {
         "name": "Phoenix Arizona Temple",
+        "image": "<img src='phoenix-200x125.jpg' alt='Phoenix Arizona Temple'>",
         "address": "5220 W Pinnacle Peak Rd",
         "address2": ", Phoenix, AZ 85310",
         "phone": "623-474-9500",
@@ -130,6 +133,7 @@
 
     {
         "name": "Snowflake Arizona Temple",
+        "image": "<img src='snowflake-200x125.jpg' alt='Snowflake Arizona Temple'>",
         "address": "1875 W Canyon Dr",
         "address2": "Snowflake, AZ 85937",
         "phone": "928-536-6626",
@@ -170,6 +174,7 @@
 
     {
         "name": "The Gila Valley Temple",
+        "image": "<img src='gila-200x125.jpg' alt='Gila Valley Arizona Temple'>",
         "address": "5291 W Highway 70",
         "address2": "Central, AZ 85531",
         "phone": "928-428-7243",
@@ -210,6 +215,7 @@
 
     {
         "name": "Tucson Arizona Temple",
+        "image": "<img src='tucson-200x125.jpg' alt='Tucson Arizona Temple'>",
         "address": "7821 North Skyline Dr",
         "address2": "Tucson, AA 85718",
         "phone": "520-395-3900",

@@ -29,7 +29,7 @@
 
     <nav>
         <button onClick="toggleMenu();">&#9776; Menu</button>
-        <ul>
+        <ul id="primary-nav" class="hide">
             <li><a href="index.html" >Home</a></li>
             <li><a href="services.html" class="active">Services</a></li>
             <li><a href="temples.html" >Temples</a></li>
@@ -43,7 +43,14 @@
 
         <h1>Services and Amenities</h1>
 
-        <!--image goes here-->
+        <div>
+            <picture>
+                <source srcset="images/baptism-200x113.jpg" media="(max-width: 500px)">
+                <source srcset="images/baptism-480x270.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                <source srcset="images/baptism-590x322.jpg" media="(min-width: 801px)">
+                <img src="images/baptism-200x113.jpg" alt="temple baptismal font">
+            </picture>
+        </div>
 
         <article>
 
@@ -63,7 +70,14 @@
 
             <h2>Free Amenities</h2>
                 
-            <!--image goes here-->
+            <div>
+                <picture>
+                    <source srcset="images/pool-200x146.jpg" media="(max-width: 500px)">
+                    <source srcset="images/pool-480x300.jpg" media="(min-width: 501px) and (max-width: 800px)">
+                    <source srcset="images/pool-590x432.jpg" media="(min-width: 801px)">
+                    <img src="images/pool-200x146.jpg" alt="Temple Inn & Suites pool">
+                </picture>
+            </div>
 
             <ul>
                 <li>Breakfast</li>
@@ -85,7 +99,7 @@
     <footer>
             <div class="contact">
                 <p>Temple Inn & Suites<br>4800 Montgomery Ln #300<br>Bethesda, MD 20814<br>1-800-867-5309</p>
-                <p>If you experience any difficulty with this site, please email the webmaster at <a href="mailto:webmaster@templeinnsuites.com">webmaster@templeinnsuites.com</a>. Thank you.</p>
+                <p>If you experience any difficulty with this site, please email the webmaster at webmaster@templeinnsuites.com. Thank you.</p>
                 <p>Visit us online at: </p>
                     <div class="social-media">
                         <p>
